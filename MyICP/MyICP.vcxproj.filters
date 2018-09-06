@@ -15,16 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pch.h">
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="icp.h">
       <Filter>头文件</Filter>
-    </ClInclude>
+    </ClCompile>
+    <ClCompile Include="icp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="icpPointToPlane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pch.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="MyICP.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <ClInclude Include="icpPointToPlane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
